@@ -1,0 +1,461 @@
+
+.ModalKarartmaAlaniKapsayicisi{
+  position: fixed;
+  display: none; 
+  margin: 0;
+  padding: 0;
+  top: 114px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  z-index: 600;
+}
+
+
+
+@media only screen and (min-width:1200px){ /* XL */
+  .ModalKarartmaAlaniKapsayicisi{
+    width: calc(100% - 300px);
+    min-width: calc(100% - 300px);
+    max-width: calc(100% - 300px);
+    margin: auto calc(100% - (100% - 150px));
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+  .ModalKarartmaAlaniKapsayicisi{
+    width: calc(100% - 250px);
+    min-width: calc(100% - 250px);
+    max-width: calc(100% - 250px);
+    margin: auto calc(100% - (100% - 125px));
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+  .ModalKarartmaAlaniKapsayicisi{
+    width: calc(100% - 200px);
+    min-width: calc(100% - 200px);
+    max-width: calc(100% - 200px);
+    margin: auto calc(100% - (100% - 100px));
+  }
+}
+
+@media only screen and (max-width:767px){ /* S, XS */
+  .ModalKarartmaAlaniKapsayicisi{
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    left: 0;
+    top: 124px;
+  }
+}
+
+.ModalAlaniKapsayicisi{
+  position: relative;
+  display: none;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  background: #FFFFFF;
+  z-index: 601;
+}
+
+
+
+@media only screen and (min-width:1200px){ /* XL */
+  .ModalAlaniKapsayicisi{
+    width: 80%;
+    min-width: 80%;
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+  .ModalAlaniKapsayicisi{
+    width: 85%;
+    min-width: 85%;
+    max-width: 85%;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+  .ModalAlaniKapsayicisi{
+    width: 90%;
+    min-width: 90%;
+    max-width: 90%;
+  }
+}
+
+@media only screen and (max-width:767px){ /* S, XS */
+  .ModalAlaniKapsayicisi{
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+  }
+}
+
+
+
+.ModalBaslikAlaniKapsayicisi{
+  display: block;
+  width: calc(100% - 34px);
+  min-width: calc(100% - 34px);
+  max-width: calc(100% - 34px);
+  height: auto;
+  margin: 0;
+  padding: 0;
+  padding: 15px;
+  border: none;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  border-top: 2px solid #2A3F54;
+  border-left: 2px solid #2A3F54;
+  border-right: 2px solid #2A3F54;
+  outline: none;
+  overflow: hidden;
+  background: #C9302C;
+  color: #FFFFFF;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-decoration: none;
+  text-align: left;
+  float: left;
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+  .ModalBaslikAlaniKapsayicisi{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+  .ModalBaslikAlaniKapsayicisi{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+  .ModalBaslikAlaniKapsayicisi{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width:767px){ /* S, XS */
+  .ModalBaslikAlaniKapsayicisi{
+    font-size: 14px;
+  }
+}
+
+
+
+.ModalKapatmaAlaniKapsayicisi{
+  position: absolute;
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  top: 15px;
+  right: 15px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  background: #C9302C;
+  color: #000000;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-decoration: none;
+  text-align: left;
+  float: left;
+  cursor: pointer;
+}
+
+.ModalMetinAlaniKapsayicisi{
+  display: block;
+  width: calc(100% - 34px);
+  min-width: calc(100% - 34px);
+  max-width: calc(100% - 34px);
+  height: auto;
+  margin: 0;
+  padding: 0;
+  padding: 15px;
+  border: none;
+  border-left: 2px solid #2A3F54;
+  border-right: 2px solid #2A3F54;
+  outline: none;
+  overflow: hidden;
+  background: #FFFFFF;
+  color: #646464;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 20px;
+  text-decoration: none;
+  text-align: left;
+  float: left;
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+  .ModalMetinAlaniKapsayicisi{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+  .ModalMetinAlaniKapsayicisi{
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+  .ModalMetinAlaniKapsayicisi{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width:767px){ /* S, XS */
+  .ModalMetinAlaniKapsayicisi{
+    font-size: 12px;
+  }
+}
+
+
+
+.ModalButonAlaniKapsayicisi{
+  display: block;
+  width: calc(100% - 19px);
+  min-width: calc(100% - 19px);
+  max-width: calc(100% - 19px);
+  height: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+  padding-right: 15px;
+  border: none;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom: 2px solid #2A3F54;
+  border-left: 2px solid #2A3F54;
+  border-right: 2px solid #2A3F54;
+  outline: none;
+  overflow: hidden;
+  background: #FFFFFF;
+  text-align: right;
+  text-decoration: none;
+  float: left;
+}
+
+.ModalOnaylaButonuAlaniKapsayicisi a:link, 
+.ModalOnaylaButonuAlaniKapsayicisi a:visited{
+  width: auto;
+  height: 24px;
+  min-height: 24px;
+  max-height: 24px;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  padding-top: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border: none;
+  border: 1px solid #4CAF50;
+  outline: none;
+  background: #4CAF50;
+  color: #FFFFFF;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  float: right;
+}
+
+.ModalOnaylaButonuAlaniKapsayicisi a:hover{
+  border: 1px solid #1B4C1D;
+}
+
+.ModalOnaylaButonuAlaniKapsayicisi a:active{
+  border: 1px solid #4CAF50;
+  background: #1B4C1D;
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+  .ModalOnaylaButonuAlaniKapsayicisi a:link, 
+  .ModalOnaylaButonuAlaniKapsayicisi a:visited, 
+  .ModalOnaylaButonuAlaniKapsayicisi a:hover, 
+  .ModalOnaylaButonuAlaniKapsayicisi a:active{
+    font-size: 14;
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+  .ModalOnaylaButonuAlaniKapsayicisi a:link, 
+  .ModalOnaylaButonuAlaniKapsayicisi a:visited, 
+  .ModalOnaylaButonuAlaniKapsayicisi a:hover, 
+  .ModalOnaylaButonuAlaniKapsayicisi a:active{
+    font-size: 13;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+  .ModalOnaylaButonuAlaniKapsayicisi a:link, 
+  .ModalOnaylaButonuAlaniKapsayicisi a:visited, 
+  .ModalOnaylaButonuAlaniKapsayicisi a:hover, 
+  .ModalOnaylaButonuAlaniKapsayicisi a:active{
+    font-size: 12;
+  }
+}
+
+@media only screen and (max-width:767px){ /* S, XS */
+  .ModalOnaylaButonuAlaniKapsayicisi a:link, 
+  .ModalOnaylaButonuAlaniKapsayicisi a:visited, 
+  .ModalOnaylaButonuAlaniKapsayicisi a:hover, 
+  .ModalOnaylaButonuAlaniKapsayicisi a:active{
+    font-size: 12;
+  }
+}
+
+
+
+.ModalOnaylaButonuAlaniKapsayicisi a:link, .ModalOnaylaButonuAlaniKapsayicisi a:visited{
+  width: auto;
+  height: 24px;
+  min-height: 24px;
+  max-height: 24px;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  padding-top: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border: none;
+  border: 1px solid #4CAF50;
+  outline: none;
+  background: #4CAF50;
+  color: #FFFFFF;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  float: right;
+}
+
+.ModalOnaylaButonuAlaniKapsayicisi a:hover{
+  border: 1px solid #1B4C1D;
+}
+
+.ModalOnaylaButonuAlaniKapsayicisi a:active{
+  border: 1px solid #4CAF50;
+  background: #1B4C1D;
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+  .ModalOnaylaButonuAlaniKapsayicisi a:link,
+  .ModalOnaylaButonuAlaniKapsayicisi a:visited,
+  .ModalOnaylaButonuAlaniKapsayicisi a:hover,
+  .ModalOnaylaButonuAlaniKapsayicisi a:active{
+    font-size: 14;
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+  .ModalOnaylaButonuAlaniKapsayicisi a:link, .ModalOnaylaButonuAlaniKapsayicisi a:visited, .ModalOnaylaButonuAlaniKapsayicisi a:hover, .ModalOnaylaButonuAlaniKapsayicisi a:active{
+    font-size: 13;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+  .ModalOnaylaButonuAlaniKapsayicisi a:link, .ModalOnaylaButonuAlaniKapsayicisi a:visited, .ModalOnaylaButonuAlaniKapsayicisi a:hover, .ModalOnaylaButonuAlaniKapsayicisi a:active{
+    font-size: 12;
+  }
+}
+
+@media only screen and (max-width:767px){ /* S, XS */
+  .ModalOnaylaButonuAlaniKapsayicisi a:link, .ModalOnaylaButonuAlaniKapsayicisi a:visited, .ModalOnaylaButonuAlaniKapsayicisi a:hover, .ModalOnaylaButonuAlaniKapsayicisi a:active{
+    font-size: 12;
+  }
+}
+
+
+
+.ModalIptalButonuAlaniKapsayicisi{
+  width: auto;
+  height: 24px;
+  min-height: 24px;
+  max-height: 24px;
+  margin: 0;
+  padding: 0;
+  padding-top: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border: none;
+  border: 1px solid #FF0000;
+  outline: none;
+  background: #FF0000;
+  color: #FFFFFF;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  float: right;
+}
+
+.ModalIptalButonuAlaniKapsayicisi:hover{
+  border: 1px solid #990000;
+}
+
+.ModalIptalButonuAlaniKapsayicisi:active{
+  border: 1px solid #FF0000;
+  background: #990000;
+}
+
+@media only screen and (min-width:1200px){ /* XL */
+  .ModalIptalButonuAlaniKapsayicisi{
+    font-size: 14;
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+  .ModalIptalButonuAlaniKapsayicisi{
+    font-size: 13;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+  .ModalIptalButonuAlaniKapsayicisi{
+    font-size: 12;
+  }
+}
+
+@media only screen and (max-width:767px){ /* S, XS */
+  .ModalIptalButonuAlaniKapsayicisi{
+    font-size: 12;
+  }
+}

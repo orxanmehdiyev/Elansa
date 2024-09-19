@@ -1,0 +1,715 @@
+ @media (min-width: 300px) and (max-width : 575px) {
+            body {
+                background: #efefef3b;
+            }
+            .up-menu {
+                justify-content: left;
+            }
+            .up-menu ul li {
+                float: none;
+                font-size: 13px;
+            }
+            .up-menu ul li a {
+                padding: 0;
+            }
+            .xs-width {
+                width: 55%;
+            }
+            .xs-width img {
+                width: 100%;
+            } 
+            .xs-nav nav {
+                padding: 3px 0;
+            }
+            .xs-nav .navbar-toggler {
+                border: 0;
+            }
+            .xs-nav .navbar-toggler:focus {
+                outline: inherit;
+                box-shadow: inherit;
+            }
+            .xs-nav .navbar-collapse hr {
+                margin: 5px 0;
+                border-color: #8282825c;
+            }
+            .xs-nav .navbar-light .navbar-nav .nav-link {
+                font-size: 14px;
+                padding: 6px 0;
+            }
+            .xs-nav .form-inline input {
+                width: 74%;
+                height: 34px;
+                margin-right: 5px;
+            }
+            .xs-nav .form-inline button {
+                height: 34px;
+                border-color: #0990f98a;
+                color: #0990f9;
+            }
+            .xs-nav .offcanvas-end {
+                width: 300px;
+            }
+            .xs-slide .col-6:first-child {
+                padding-right: 5px;
+            }
+            .xs-slide .col-6:nth-child(2) {
+                padding-left: 5px;
+            }
+            .xs-slide .col-6 .card {
+                max-height: 148px;
+                min-height: 132px;
+                margin-bottom: 20px;
+            }
+            .xs-slide .col-6 p {
+                margin-bottom: 8px;
+            }
+            .xs-slide .col-6 .card-body {
+                padding-bottom: 0;
+            }
+            .entry {
+                padding: 5px 10px 0;
+            }
+            .entry .float-right {
+                width: 100%;
+                height: 60px;
+                float: none!important;
+            }
+            .entry .text {
+                float: left;
+            }
+            .entry .float-right .btn {
+                padding: 0;
+                margin-top: -1px;
+            }
+            .entry .float-right .btn .fa-plus {
+                margin-right: 10px !important;
+            }
+            .entry .float-right ul li a i {
+                margin-right: 0;
+            }
+            .klon {
+                width: 160px;
+                margin: 4px 5px;
+                background: #fff;
+                border-radius: 3px;
+                float: left;
+                box-shadow: inherit;
+                min-height: 232px;
+            }
+            .img-kart {
+                width: 100%;
+                height: 115px;
+                position: relative;
+                overflow: hidden;
+                transition: 0.5s;
+            }
+            .img-kart .img-fluid {
+                position: absolute;
+                margin-top: 57px;
+                margin-left: 79px;
+                max-width: 159px;
+                max-height: 100%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                border-radius: 3px;
+            }
+            .ads .card-detail-badge {
+                font-size: 11px;
+            }
+            .ml-auto {
+                margin-top: -4px;
+            }
+            .reds .ml-auto a {
+                padding: 3px 4px 3px 5px;
+                font-size: 12px;
+            }
+            .ads .card-image-overlay {
+                font-size: 8px;
+            }
+            .ads .ad-title h5 {
+                font-size: 12px;
+            }
+            .ad-title li:nth-child(2) {
+                font-size: 10px;
+                padding-top: 6px;
+            }
+            .ad-title li:first-child {
+                font-size: 10px;
+                padding-top: 5px;
+            }
+            .ad-title li:last-child span {
+                font-size: 10px;
+            }
+            .ads .ad-btn {
+                width: 95px;
+                font-size: 12px;
+            }
+            .klon:nth-child(odd) {
+                margin-right: 0;
+            }
+            .foot-kat li a {
+                font-size: 12px;
+            }
+            .foot-copy li span, .foot-copy li a {
+                font-size: 13px;
+            }
+            /*Header modal css*/
+            .home-head {
+                padding: 0;
+            }
+            .entry .modal-header button {
+                background: #fff;
+                border: inherit;
+                font-size: 45px;
+                height: 25px;
+                line-height: 23px;
+                margin-bottom: 10px;
+            }
+            .login .modal-dialog {
+                min-height: 700px;
+                background: #fff;
+                width: 100% !important;
+                margin: 0;
+            }
+            .modal-content {
+                border-radius: 0;
+            }
+            .xs-accordion .accordion-header button {
+                padding: 5px;
+                font-size: 13px;
+                font-weight: bold;
+            }
+            .xs-accordion .accordion-header button i {
+                margin-right: 5px;
+            }
+            .accordion-button:not(.collapsed)::after {
+                background-size: 16px;
+                margin-top: -4px;
+            }
+            .xs-accordion .accordion-body {
+                padding: 0;
+            }
+            .xs-accordion .accordion-body ul {
+                list-style: inside;
+            }
+            .xs-accordion .accordion-body ul li {
+                border-bottom: 1px solid #e7f1ff;
+                padding: 2px 15px;
+            }
+            .xs-accordion .accordion-body ul li:nth-child(even) {
+                background-color: #e7f1ff40;
+            }
+            .xs-accordion .accordion-body ul li a {
+                font-size: 13px;
+                color: black;
+                text-decoration: none;
+            }
+            .xs-accordion .accordion-button:not(.collapsed) {
+                font-weight: bold;
+                color: #bd0000;
+                padding: 8px 5px;
+            }
+            .xs-accordion .accordion-button:focus {
+                box-shadow: inherit;
+            }
+            .xs-accordion .accordion-body ul li:last-child {
+                list-style: none;
+                display: flow-root;
+            }
+            .xs-accordion .nav {
+                background: #0b91f9;
+                margin-top: 10px;
+                height: 30px;
+            }
+            .xs-accordion .nav li {
+                width: 50%;
+                border-right: 1px solid #fff;
+                text-align: center;
+                padding: 4px 0;
+            }
+            .xs-accordion .nav li:last-child {
+                border-right: 0;
+            }
+            .xs-accordion .nav li a {
+                color: #fff;
+                padding: 0;
+            }
+            /*Fas-menu*/
+            .fas-menu .col-xl-2 h5{
+                margin-bottom: 10px;
+            }
+            .fas-menu .col-xl-10 a {
+                padding: 4px 8px;
+                margin-bottom: 10px;
+            }
+
+            /*Fas-menu end*/ 
+            /*.elansa-banners*/
+
+            .elansa-banners {
+                height: 250px;
+            }
+            .elansa-banner h1 {
+                margin-top: 0;
+            }
+            .banner-search .col-3 select, .banner-search .col input {
+                height: 40px;
+            }
+            .elansa-banner .container {
+                top: 1.5%;
+            }
+            /*.elansa-banners end*/
+            /*.reds*/
+ 
+            .city-large.container {
+                padding: 0;
+            }
+            /*.reds end*/ 
+            /*Reds Four*/
+
+            .four .col {
+                width: 50%;
+                padding: 0 5px;
+            }
+            .elan-kart-filtir .img-hid {
+                min-height: 110px;
+                max-height: 110px;
+            }
+            .elan-kart .card .img-hid span {
+                height: 60px;
+                bottom: 96px;
+                background: linear-gradient(to bottom, transparent, rgb(0 0 0 / 44%));
+                filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#00000000', endColorstr='#B2000000');
+            }
+            .elan-kart .card-image-overlay{
+                padding: 2px 0 0;
+                font-size: 10px;
+            }
+            .elan-kart span.card-detail-badge {
+                font-size: 10px;
+            }
+            .elan-kart .card-footer h5 {
+                font-size: 16px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+                padding: 3px 5px;
+            }
+            .ad-title li:first-child {
+                padding-right: 3px;
+            }
+            .ad-title li:last-child {
+                padding-left: 3px;
+            }
+            .elan-kart .ad-title ul {
+                margin-top: -5px;
+            }
+            .elan-kart .ad-btn {
+                font-size: 12px;
+            }
+            .four .col.item-al { 
+                width: 47% !important;
+                margin-left: 5px;
+                top: inherit;
+                max-height: 207px;
+                min-height: 207px;
+            }
+            .texture {
+                background-size: 100%;
+                background-position: 50% 40%;
+            }
+            .elan-kart .card-footer {
+                min-height: 77px;
+            }
+            .item-al { 
+                min-height: 186px;
+                max-height: 186px;
+            }
+            .salon-ico { 
+                margin-top: -20px;
+                height: 15px;  
+            }
+            .karsilastir-ico { 
+                margin-top: -20px; 
+                padding: 1px 3px 0 4px;
+                height: 15px; 
+            }
+            /*Reds Four end*/
+            /*Footer menu(mobile) start*/
+
+            .mobile_menu {
+                position: sticky;
+                bottom: 0;
+                background: #f7f7f7;
+                z-index: 1003;
+            }
+            .mobile_menu .d-flex {
+                justify-content: space-between;
+                padding: 10px;
+            }
+            .mobile_yeni a {
+                color: green !important;
+            }
+            .mobile_yeni a i {
+                font-size: 24px !important;
+                margin-top: -25px;
+                background: #f7f7f7;
+                border-top-right-radius: 25px;
+                border-top-left-radius: 25px;
+                padding: 11px 0 0 0;
+            }
+            .mobile_menu li {
+                font-size: 12px;
+                text-align: center;
+            }
+            .mobile_menu li a {
+                text-decoration: none;
+                color: #626262;
+            }
+            .mobile_menu li a i{
+                display: block;
+                font-size: 15px;
+            }
+            
+
+            /*Footer menu(mobile) end*/
+
+            /*****************************************************************************************************************/
+            /*Ic Sehife*/
+
+            .car-det tbody th, .car-det tbody td {
+                width: 50%;
+                padding: 4px 10px;
+                border-bottom: 1px solid #c9c9c9;
+            }
+            .car-det .col-6 tbody tr th, .car-det .col-6 tbody tr td {
+                border-bottom: 0;
+            }  
+            .car-det .col-6 tbody tr th {
+                width: 15%;
+            }
+            .car-det .col-6 tbody tr td{
+                width: 85%;
+                font-size: 12px;
+                padding-right: 0;
+            }
+            .car-det .table {
+                margin-bottom: 0;
+            }
+            .car-info li {
+                padding: 0 10px;
+            }
+            .car-info li:last-child {
+                padding: 15px 0 0 0 ;
+            }
+            .vip-slide .col-4 a{
+                display: block;
+                width: auto;
+                height: auto;
+                padding: 10px 0;
+            }
+            .imglist .col-12 .col-2 {
+                max-height: 34px;
+                min-height: 34px;
+            }
+            .car-info li:first-child {
+                background: none;
+            }
+            .elan-sahibi {
+                align-items: inherit;
+                text-align: inherit;
+            }
+            .mobile-elan-sahibi h3 {
+                float: left;
+            }
+            .mobile-elan-sahibi h3+span {
+                display: block;
+                text-align: right;
+            }
+            .mobile-elan-sahibi span+span{
+                text-align: center;
+            }
+            .elan-sahibi hr {
+                margin: 4px 0;
+            }
+            .elan-sahibi-button button {
+                width: 32.5%;
+                margin-bottom: 3px;
+                padding: 3px 0 0 0;
+            }
+            .elan-sahibi-button button i {
+                margin-right: 3px;
+            }
+            .vip-slide .col-4 a {
+                border: 1px solid;
+                border-radius: 5px;
+                text-decoration: none;
+                height: 37px;
+            }
+            .vip-slide .col-4:first-child a{
+                border-color: darkred;
+            }
+            .vip-slide .col-4:nth-child(2) a{
+                border-color: black;
+            }
+            .vip-slide .col-4:last-child a{
+                border-color: firebrick;
+            }
+            .vip-slide .col-4 a span {
+                display: block;
+                background: red;
+                width: 40px;
+                margin-top: -33px;
+                margin-left: 64px;
+                font-size: 10px;
+                border-radius: 3px;
+                color: #fff;
+            }
+             /*Filtir sehifesi*/
+                .inpage-tabs .tab-content .nav-pills li a {
+                    font-size: 13px;
+                    padding: 6px;
+                }
+                .inpage-tabs .tab-content .nav-pills li a i {
+                    font-size: 10px;
+                }
+            /*Filtir sehifesi*/
+        } 
+
+        /* Small devices (landscape phones, 576px and up)*/
+
+        @media (min-width: 576px) and (max-width: 767px) {
+            .container {
+                max-width: 750px;
+            }
+            .four .col{
+                width: 33%;
+            }
+            .fas-menu .col-xl-10 a {
+                padding: 4px 14px;
+                margin-right: 3px;
+            }
+            .fas-menu .col-xl-2 h5 {
+                margin-bottom: 6px;
+            }
+            .reds {
+                padding: 5px 0 5px 5px;
+            }
+            .elan-kart .card-footer h5 { 
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;  
+            }
+            .xs-nav .navbar-brand img {
+                width: 42%;
+            }
+            .ad-title li:first-child {
+                font-size: 13px;
+                padding-top: 3px;
+            }
+            .ad-title li:last-child span{
+                font-size: 13px;
+            }
+            /*Footer Tab start*/
+            .tab button {
+                width: 210px;
+                padding: 6px 0;
+            }
+            .home-tabs .tab-content ul li a, .home-tabs .nav-pills li a {
+                font-size: 11px;
+            }
+            .foot-kat li a{
+                font-size: 12px;
+            }
+            .foot-kat li {
+                margin-right: 14px;
+            }
+            .foot-kat li:last-child {
+                margin-right: 0;
+            }
+            /*Footer Tab end*/
+            /*Footer menu(mobile) start*/
+
+            .mobile_menu {
+                position: sticky;
+                bottom: 0;
+                background: #f7f7f7;
+                z-index: 1003;
+            }
+            .mobile_menu .d-flex {
+                justify-content: space-between;
+                padding: 10px;
+            }
+            .mobile_yeni a {
+                color: green !important;
+            }
+            .mobile_yeni a i {
+                font-size: 24px !important;
+                margin-top: -25px;
+                background: #f7f7f7;
+                border-top-right-radius: 25px;
+                border-top-left-radius: 25px;
+                padding: 11px 0 0 0;
+            }
+            .mobile_menu li {
+                font-size: 12px;
+                text-align: center;
+                padding: 0 30px;
+            }
+            .mobile_menu li a {
+                text-decoration: none;
+                color: #626262;
+            }
+            .mobile_menu li a i{
+                display: block;
+                font-size: 15px;
+            } 
+            /*Footer menu(mobile) end*/
+            /*****************************************************************************************************************/
+            /*Ic Sehife*/
+            .car-det tbody th, .car-det tbody td {
+                width: 50%;
+            }
+            .car-det .col-6 tbody tr th {
+                width: 15%;
+            }
+            .car-det .col-6 tbody tr td{
+                width: 85%; 
+                padding-right: 0;
+            }
+            .car-det .table {
+                margin-bottom: 0;
+            }
+        }
+
+        /* Medium devices (tablets, 768px and up)*/
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            .container {
+                max-width: 980px;
+            }
+            .four .col {
+                width: 25%;
+            }
+            .fas-menu .col-xl-2 h5{
+                margin: 2px 0 10px;
+            }
+            .ad-title li:first-child {
+                font-size: 13px;
+                padding-top: 3px;
+            }
+            .ad-title li:last-child span {
+                font-size: 13px; 
+            }
+            .ad-title li:last-child {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .item-al {
+                width: 22.5% !important;
+            }
+            .elan-kart .card-footer h5 {
+                font-size: 20px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+            }
+            .elan-kart .card-image-overlay {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+            }
+            .elan-kart span.card-detail-badge {
+                font-size: 15px;
+            }
+            .elan-kart .card .img-hid span {
+                bottom: 115px;
+            }
+            .xs-nav .navbar-brand img {
+                width: 42%;
+            }
+            /*Footer menu(mobile) start*/
+
+            .mobile_menu {
+                position: sticky;
+                bottom: 0;
+                background: #f7f7f7;
+                z-index: 1003;
+            }
+            .mobile_menu .d-flex {
+                justify-content: space-between;
+                padding: 10px;
+            }
+            .mobile_yeni a {
+                color: green !important;
+            }
+            .mobile_yeni a i {
+                font-size: 24px !important;
+                margin-top: -25px;
+                background: #f7f7f7;
+                border-top-right-radius: 25px;
+                border-top-left-radius: 25px;
+                padding: 11px 0 0 0;
+            }
+            .mobile_menu li {
+                font-size: 12px;
+                text-align: center;
+                padding: 0 50px;
+            }
+            .mobile_menu li a {
+                text-decoration: none;
+                color: #626262;
+            }
+            .mobile_menu li a i{
+                display: block;
+                font-size: 15px;
+            }
+            
+
+            /*Footer menu(mobile) end*/
+        }
+
+        /* Large devices (desktops, 992px and up)*/
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+            .container {
+                max-width: 1190px;
+            }
+            .fas-menu .col-xl-2 h5 {
+                margin: 2px 0 10px 0;
+            }
+            .full-nav .text-end a {
+                font-size: 12px;
+            }
+            .elan-kart .card-footer h5 { 
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+            }
+            .elan-kart .card-image-overlay {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+            }
+        }
+
+        /* Extra large devices (large desktops, 1200px and up)*/
+
+        @media (min-width: 1200px) and (max-width: 1400px)  {
+            .container {
+                width: 1380px;
+            }
+            .elan-kart .card-footer h5 {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+            }
+            .tab button {
+                width: 200px;  
+            }
+
+        }
+
+        /*ELANSA RESPONSIVE*/

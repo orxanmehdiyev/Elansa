@@ -1,0 +1,63 @@
+body {
+	font-family: cursive;
+}
+.head {
+	background: linear-gradient(45deg, #f8f9fa, transparent);
+	border-bottom: 1px solid #ddd;
+}
+.head .row, .head .row .col-3, .head .row .col-9 {
+	height: 40px;
+}
+.head .col-3 h5 {
+	text-align: left;
+	font-size: 13px;
+	padding-top: 8px;
+}
+.nav-menu {
+	padding: 0;
+}
+.nav-menu .navbar-site .navbar-nav > li, .nav-menu.navbar-light .navbar-nav > li {
+	margin: 0;
+	border-right: 1px solid #dddddd3b;
+	padding: 0 3px;
+}
+.nav-menu .navbar-nav > li, .nav-menu .navbar-nav > li:hover {
+	transition: .5s;
+	-webkit-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+	-moz-transition: .5s;
+}
+.nav-menu .navbar-nav li:hover {
+	background: linear-gradient(#e9ecef,#f8f9fa)
+}
+.nav-menu .navbar-nav li:last-child {
+	border: 0;
+}
+.nav-menu.navbar-light .navbar-nav > li a {
+	border-radius: 0 !important;
+}
+.axtar .col-6 .input-group {
+	margin-top: 20px;
+}
+.axtar .col-6 .input-group-append+ a {
+	padding-left: 10px;
+	padding-top: 8px;
+}
+.axtar .col-3 a.btn {
+	margin-top: 20px;
+	padding: 8px 30px;
+}
+.sira ul {
+	background: white;
+	padding: 35px 20px 5px 20px;
+	border-radius: 3px;
+	box-shadow: 0 0 10px 1px white;
+}
+.sira h5+.input-group {
+	width: 200px;
+	margin-bottom: 10px !important;
+}
+.sira h5 {
+	padding-bottom: 2px;
+}

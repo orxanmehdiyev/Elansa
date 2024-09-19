@@ -1,0 +1,383 @@
+/*
+ *
+ * login-register modal
+ * Autor: Creative Tim
+ * Web-autor: creative.tim
+ * Web script: http://creative-tim.com
+ * 
+ */
+
+
+/*  Shake animation  */
+
+@charset "UTF-8";
+.animated {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated.hinges {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.animated.slow {
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+.animated.snail {
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -o-animation-duration: 4s;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes shake {
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translateX(10px);
+    }
+}
+
+@-moz-keyframes shake {
+    0%,
+    100% {
+        -moz-transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -moz-transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        -moz-transform: translateX(10px);
+    }
+}
+
+@-o-keyframes shake {
+    0%,
+    100% {
+        -o-transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -o-transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        -o-transform: translateX(10px);
+    }
+}
+
+@keyframes shake {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(10px);
+    }
+}
+
+.social a {
+    width: 100%;
+}
+.social a:first-child {
+    margin-bottom: 5px
+}
+.shake {
+    -webkit-animation-name: shake;
+    -moz-animation-name: shake;
+    -o-animation-name: shake;
+    animation-name: shake;
+}
+.box ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #d0d6dc;
+  opacity: 1; /* Firefox */
+}
+
+.box :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #d0d6dc;
+}
+
+.box ::-ms-input-placeholder { /* Microsoft Edge */
+  color: #d0d6dc;
+}
+.login .modal-dialog {
+    width: 350px;
+}
+
+.login .modal-footer {
+    border-top: 0;
+    margin-top: 5px;
+    padding: 0 20px 10px;
+}
+
+.login .modal-header {
+    border: 0 none;
+    padding: 15px 15px 0;
+}
+
+.login .division {
+    float: none;
+    margin: 10px auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.login .division .line {
+    border-top: 1px solid #DFDFDF;
+    position: absolute;
+    top: 13px;
+    width: 34%;
+}
+
+.login .division .line.l {
+    left: 0;
+}
+
+.login .division .line.r {
+    right: 0;
+}
+
+.login .division span {
+    color: #424242;
+    font-size: 17px;
+}
+
+.login .box .social {
+    float: none;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+.login .social i {
+    padding-right: 3px;
+}
+.login .social .circle {
+    background-color: #EEEEEE;
+    color: #FFFFFF;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 6px 0 3px;
+    line-height: 1.5;
+}
+
+.login .social .circle .fa {
+    font-size: 16px;
+}
+
+.login .social .facebook {
+    background-color: #455CA8;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login .social .facebook i {
+    margin-right: 3px;
+}
+
+.login .social .google {
+    background-color: #F74933;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login .social .github {
+    background-color: #403A3A;
+}
+
+.login .facebook:hover {
+    background-color: #6E83CD;
+}
+
+.login .google:hover {
+    background-color: #FF7566;
+}
+
+.login .github:hover {
+    background-color: #4D4D4d;
+}
+
+.login .forgot {
+    color: #797979;
+    margin-left: 0;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+}
+.login .forgot span a{
+    padding-left: 15px;
+}
+.login .btn-login,
+.registerBox .btn-register {
+    background-color: #0c8ed8;
+    border-color: #0c8ed8;
+    border-width: 0;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    /* padding: 15px 50px; */
+    text-transform: uppercase;
+    width: 100%;
+    height: 33px;
+    /* padding-top: 6px; */
+    border-radius: 5px;
+    line-height: 26px;
+}
+
+.login .btn-login,
+.login .btn-register {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.login .btn-login:hover,
+.registerBox .btn-register:hover {
+    background-color: #00A4E4;
+    color: #FFFFFF;
+}
+
+.login .form-control {
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 0px 0px 1px rgba(0, 0, 0, 0.09) inset;
+    color: #FFFFFF;
+    margin: 15px 0;
+}
+
+.login .form-control:hover {
+    background-color: #fff;
+}
+
+.login .form-control:focus {
+    box-shadow: 0 0px 0 1px rgb(232 232 232) inset;
+    ;
+    background-color: #fff;
+    color: #FFFFFF;
+}
+
+.login .box .form input[type="text"],
+.login .box .form input[type="password"] {
+    border-radius: 3px;
+    border: none;
+    color: #333333;
+    font-size: 13px;
+    height: 36px;
+    padding: 13px 12px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media (max-width:400px) {
+    .login .modal-dialog {
+        width: 100%;
+    }
+}
+
+.big-login:hover {
+    background-color: #00A4E4;
+    color: #FFFFFF !important;
+}
+
+.big-register {
+    background-color: rgba(0, 0, 0, .0);
+    color: #00bbff;
+    border-color: #00bbff;
+}
+
+.big-register:hover {
+    border-color: #00A4E4;
+    color: #00A4E4;
+}
+
+.box .form-check .form-check-label {
+    font-size: 12px;
+    color: #007bff;
+}
+.box .form-check .form-check-label+a{
+    text-decoration: inherit;
+    float: right;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.modal-body {
+    padding-top: 0;
+}
+
+input[type="file"] {
+    display: block;
+}
+
+.imageThumb {
+    max-height: 75px;
+    border: 2px solid;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.pip {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+}
+
+.remove {
+    display: block;
+    background: #444;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.remove:hover {
+    background: white;
+    color: black;
+} 
