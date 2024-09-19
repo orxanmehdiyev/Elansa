@@ -1,0 +1,63 @@
+RewriteEngine on
+
+#Alt domain harici kullan
+#RewriteCond %{SERVER_PORT} 80 
+#RewriteRule ^(.*)$ http://c2c.emrahyuksel.com.tr/$1 [R,L]
+
+#www olmadan yonlendirme
+#RewriteCond %{HTTP_HOST} ^emrahyuksel.com.tr. [NC]
+#RewriteRule ^(.*)$ http://www.site_adi.com/$1 [L,R=301,NC]
+
+
+#Seo url oluşturma
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+
+RewriteRule ^seherler$ seherler.php [NC,L]
+Options All -Indexes
+#404 hata sayfası yönlendirme kodu
+#ErrorDocument 404 http://c2c.emrahyuksel.com.tr/404.php
+RewriteRule ^dovlet-([0-9a-zA-Z$.-_]+)-([0-9a-zA-Z$.-_]+)$ DovletIslemleriSonuc.php?durum=$1&SEO_URL=$2 [L,QSA]
+RewriteRule ^dovletyenile-([0-9]+)-([0-9a-zA-Z$.-_]+)$ dovletyenile.php?Dovlet_Id=$1&SEO_URL=$2 [L,QSA]
+RewriteRule ^dovletyeni$ dovletyeni.php [NC,L]
+RewriteRule ^login$ login.php [NC,L]
+
+
+RewriteRule ^avtomobilaechizatbolmesisilindi$ AvtomobilTechizatBolmesi.php [NC,L]
+RewriteRule ^avtomobilatechizatsilindi$ AvtomobilTechizati.php [NC,L]
+
+RewriteRule ^meziltechizatbolmesi-([0-9a-zA-Z$.-_]+)-([0-9a-zA-Z$.-_]+)$ MenzilTechizatBolmesi.php?durum=$1&SEO_URL=$2 [L,QSA]
+
+
+
+
+
+
+RewriteRule ^dovletxeta-([0-9a-zA-Z-_]+) seherler.php?durum=$1 [L,QSA]
+RewriteRule ^yeniseher-([0-9a-zA-Z$.-_]+)-([0-9a-zA-Z$.-_]+)-([0-9a-zA-Z$.-_]+)$ SeherIslemSonuc.php?durum=$1&SEO_URL=$2&dovlet_SEO_URL=$3 [L,QSA]
+RewriteRule ^sehervar-([0-9a-zA-Z-_]+)-([0-9a-zA-Z-_]+)-([0-9a-zA-Z-_]+)$ SeherIslemSonuc.php?durum=$1&SEO_URL=$2&dovlet_SEO_URL=$3 [L,QSA]
+RewriteRule ^seheryenilendi-([0-9a-zA-Z-_]+)-([0-9a-zA-Z-_]+)-([0-9a-zA-Z-_]+)$ SeherIslemSonuc.php?durum=$1&SEO_URL=$2&dovlet_SEO_URL=$3 [L,QSA]
+RewriteRule ^seherler$ seherler.php [NC,L]
+
+
+RewriteRule ^elandetay-([0-9a-zA-Z$.-_]+)-([0-9]+)$  elandetay.php?sef=$1&elan_id=$2 [L,QSA]
+
+
+
+
+
+RewriteRule ^sayfa-([0-9a-zA-Z-_]+)  menu-detay.php?sef=$1 [L,QSA]
+
+RewriteRule ^satici-([0-9a-zA-Z-_]+)-([0-9]+)$  user.php?sef=$1&kullanici_id=$2 [L,QSA]
+#RewriteRule ^urun-([0-9a-zA-Z-_]+)  urun-detay.php?sef=$1 [L,QSA]
+
+RewriteRule ^sitemap.xml$ sitemap.php [NC,L]
+RewriteRule ^haber-([0-9a-zA-Z-_]+)-([0-9]+)$  haber-detay.php?sef=$1&icerik_id=$2 [L,QSA]
+RewriteRule ^sayfa-([0-9a-zA-Z-_]+)-([0-9]+)$  menu-detay.php?sef=$1&menu_id=$2 [L,QSA]
+RewriteRule ^video-([0-9a-zA-Z-_]+)-([0-9]+)$  video-detay.php?sef=$1&video_id=$2 [L,QSA]
+RewriteRule ^egitim-([0-9a-zA-Z-_]+)  egitim-detay.php?sef=$1 [L,QSA]
+RewriteRule ^izle-([0-9a-zA-Z-_]+)  izle-egitim.php?sef=$1 [L,QSA]
+RewriteRule ^seyret-([0-9a-zA-Z-_]+)-([0-9]+)$  seyret.php?sef=$1&program_id=$2 [L,QSA]
+RewriteRule ^odeme-egitim-([0-9a-zA-Z-_]+)  odeme-egitim.php?egitim_id=$1 [L,QSA]
