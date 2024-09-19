@@ -1,0 +1,25 @@
+[12-Nov-2021 09:03:11 Europe/Istanbul] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 8
+[12-Nov-2021 09:04:12 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT), expecting ')' in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 9
+[12-Nov-2021 09:04:21 Europe/Istanbul] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 8
+[12-Nov-2021 09:09:47 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 235
+[12-Nov-2021 09:09:47 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 295
+[12-Nov-2021 09:09:47 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 359
+[12-Nov-2021 09:09:47 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 446
+[12-Nov-2021 09:09:47 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 519
+[12-Nov-2021 09:09:47 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 592
+[12-Nov-2021 09:09:47 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 666
+[12-Nov-2021 09:09:47 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 782
+[12-Nov-2021 09:09:47 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 862
+[12-Nov-2021 09:09:47 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 944
+[12-Nov-2021 09:09:47 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 1028
+[12-Nov-2021 09:09:53 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 235
+[12-Nov-2021 09:09:53 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 295
+[12-Nov-2021 09:09:53 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 359
+[12-Nov-2021 09:09:53 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 446
+[12-Nov-2021 09:09:53 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 519
+[12-Nov-2021 09:09:53 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 592
+[12-Nov-2021 09:09:53 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 666
+[12-Nov-2021 09:09:53 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 782
+[12-Nov-2021 09:09:53 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 862
+[12-Nov-2021 09:09:53 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 944
+[12-Nov-2021 09:09:53 Europe/Istanbul] PHP Notice:  Undefined variable: sql in /home/u0291842/elansa.xyz/anliq_yenileme/axtaris.php on line 1028

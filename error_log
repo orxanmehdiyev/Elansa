@@ -1,0 +1,6 @@
+[24-Nov-2021 09:06:11 Europe/Istanbul] PHP Notice:  Undefined index: sef in /home/u0291842/elansa.xyz/neqliyyatsuretlikataqoriya.php on line 5
+[24-Nov-2021 09:14:13 Europe/Istanbul] PHP Warning:  include(Avtomobil_Elani/Avtomobil_Vip_Elanlar..php): failed to open stream: No such file or directory in /home/u0291842/elansa.xyz/vip.php on line 45
+[24-Nov-2021 09:14:13 Europe/Istanbul] PHP Warning:  include(Avtomobil_Elani/Avtomobil_Vip_Elanlar..php): failed to open stream: No such file or directory in /home/u0291842/elansa.xyz/vip.php on line 45
+[24-Nov-2021 09:14:13 Europe/Istanbul] PHP Warning:  include(): Failed opening 'Avtomobil_Elani/Avtomobil_Vip_Elanlar..php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u0291842/elansa.xyz/vip.php on line 45
+[24-Nov-2021 16:07:27 Europe/Istanbul] PHP Notice:  Undefined offset: 1 in /home/u0291842/elansa.xyz/Avtomobil_Elani/Avtomobil_Elani_Detay.php on line 556
+[24-Nov-2021 16:07:27 Europe/Istanbul] PHP Notice:  Undefined offset: 1 in /home/u0291842/elansa.xyz/Avtomobil_Elani/Avtomobil_Elani_Detay.php on line 558
